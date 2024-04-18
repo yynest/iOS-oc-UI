@@ -7,8 +7,11 @@
 
 
 #import "ViewController.h"
+#import "TextFieldVC.h"
+
 //导入代理需要的两个协议
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource> {
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+{
     NSArray *uiList;
 }
 
@@ -17,10 +20,11 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    uiList = @[@"Textfield",@"Button",@"Label",@"Toobar",@"Status Bar",@"Navigation Bar",@"Tab Bar",@"Image View",@"Scroll View",@"Table View",@"Split View",@"Text View",@"View Transition",@"Pickers",@"Switches",@"Sliders",@"Alerts",@"Icon"];
+    self.title = @"UI元素";
+    uiList = @[@"TextField",@"Button",@"Label",@"Toobar",@"StatusBar",@"NavigationBar",@"TabBar",@"ImageView",@"ScrollView",@"TableView",@"TextView",@"ViewTransition",@"Picker",@"Switch",@"Slider",@"Alert",@"Icon"];
     //表视图的初始化
     //Grouped属性，在滚动时分区头部一起移动
     UITableView *myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
@@ -42,18 +46,21 @@
     //section标题的颜色
     myTableView.sectionIndexColor = [UIColor redColor];
  
-
 }
 
 
 //返回每个分区下的单元格个数，必须实现
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return uiList.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 60.0;
+}
+
 //定制每个单元格,indexPath:当前定位的单元格位置,它有两个属性:indexPath.section,indexPath.row
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //cell重用机制
     
@@ -103,5 +110,17 @@
 // cell.detailTextLabel.text = @"asdas"; cell.textLabel.text = @"1111";// return cell;//
 //}
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSInteger row = indexPath.row;
+    NSString *string = [NSString stringWithFormat:@"%@VC",uiList[row]];
+    
+    UIViewController *vc = [[NSClassFromString(string) alloc] init];
+    if (vc) {
+        vc.title = uiList[row];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
 
+    
+}
 @end
