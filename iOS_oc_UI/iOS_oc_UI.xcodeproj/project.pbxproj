@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43AFC4422BD9F66900141F3F /* FlipCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AFC4412BD9F66900141F3F /* FlipCardView.m */; };
 		9F6B18A32BCF44D000A7E013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18A22BCF44D000A7E013 /* AppDelegate.m */; };
 		9F6B18A92BCF44D000A7E013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18A82BCF44D000A7E013 /* ViewController.m */; };
 		9F6B18AE2BCF44E600A7E013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B18AD2BCF44E600A7E013 /* Assets.xcassets */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43AFC4402BD9F66900141F3F /* FlipCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipCardView.h; sourceTree = "<group>"; };
+		43AFC4412BD9F66900141F3F /* FlipCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipCardView.m; sourceTree = "<group>"; };
 		9F6B189E2BCF44D000A7E013 /* iOS_oc_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_oc_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B18A12BCF44D000A7E013 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F6B18A22BCF44D000A7E013 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,6 +130,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43AFC43F2BD9F4E600141F3F /* ViewTransition */ = {
+			isa = PBXGroup;
+			children = (
+				9F6B18F72BD022CA00A7E013 /* ViewTransitionVC.h */,
+				9F6B18F82BD022CA00A7E013 /* ViewTransitionVC.m */,
+				43AFC4402BD9F66900141F3F /* FlipCardView.h */,
+				43AFC4412BD9F66900141F3F /* FlipCardView.m */,
+			);
+			path = ViewTransition;
+			sourceTree = "<group>";
+		};
 		9F6B18952BCF44CF00A7E013 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +164,7 @@
 		9F6B18A02BCF44D000A7E013 /* iOS_oc_UI */ = {
 			isa = PBXGroup;
 			children = (
+				43AFC43F2BD9F4E600141F3F /* ViewTransition */,
 				9F6B18A12BCF44D000A7E013 /* AppDelegate.h */,
 				9F6B18A22BCF44D000A7E013 /* AppDelegate.m */,
 				9F6B18A72BCF44D000A7E013 /* ViewController.h */,
@@ -180,8 +195,6 @@
 				9F6B18F52BD0228D00A7E013 /* TableViewVC.m */,
 				9F6B18F12BD0226100A7E013 /* TextViewVC.h */,
 				9F6B18F22BD0226100A7E013 /* TextViewVC.m */,
-				9F6B18F72BD022CA00A7E013 /* ViewTransitionVC.h */,
-				9F6B18F82BD022CA00A7E013 /* ViewTransitionVC.m */,
 				9F6B18FA2BD022FA00A7E013 /* PickerVC.h */,
 				9F6B18FB2BD022FA00A7E013 /* PickerVC.m */,
 				9F6B18FD2BD0232900A7E013 /* SwitchVC.h */,
@@ -351,6 +364,7 @@
 				9F6B18F02BD0224300A7E013 /* ScrollViewVC.m in Sources */,
 				9F6B18A32BCF44D000A7E013 /* AppDelegate.m in Sources */,
 				9F6B18F32BD0226100A7E013 /* TextViewVC.m in Sources */,
+				43AFC4422BD9F66900141F3F /* FlipCardView.m in Sources */,
 				9F6B18E12BD021A000A7E013 /* ToobarVC.m in Sources */,
 				9F6B18FF2BD0232900A7E013 /* SwitchVC.m in Sources */,
 				9F6B18F62BD0228D00A7E013 /* TableViewVC.m in Sources */,
