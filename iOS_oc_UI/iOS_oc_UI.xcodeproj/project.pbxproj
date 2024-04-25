@@ -8,15 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		9F6B18A32BCF44D000A7E013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18A22BCF44D000A7E013 /* AppDelegate.m */; };
-		9F6B18A62BCF44D000A7E013 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18A52BCF44D000A7E013 /* SceneDelegate.m */; };
 		9F6B18A92BCF44D000A7E013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18A82BCF44D000A7E013 /* ViewController.m */; };
-		9F6B18AC2BCF44D000A7E013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B18AA2BCF44D000A7E013 /* Main.storyboard */; };
 		9F6B18AE2BCF44E600A7E013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B18AD2BCF44E600A7E013 /* Assets.xcassets */; };
 		9F6B18B12BCF44E600A7E013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6B18AF2BCF44E600A7E013 /* LaunchScreen.storyboard */; };
 		9F6B18B42BCF44E600A7E013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18B32BCF44E600A7E013 /* main.m */; };
 		9F6B18BE2BCF44E600A7E013 /* iOS_oc_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18BD2BCF44E600A7E013 /* iOS_oc_UITests.m */; };
 		9F6B18C82BCF44E700A7E013 /* iOS_oc_UIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18C72BCF44E700A7E013 /* iOS_oc_UIUITests.m */; };
 		9F6B18CA2BCF44E700A7E013 /* iOS_oc_UIUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18C92BCF44E700A7E013 /* iOS_oc_UIUITestsLaunchTests.m */; };
+		9F6B18D82BD019CF00A7E013 /* TextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18D72BD019CF00A7E013 /* TextFieldVC.m */; };
+		9F6B18DB2BD0213D00A7E013 /* ButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18DA2BD0213D00A7E013 /* ButtonVC.m */; };
+		9F6B18DE2BD0217800A7E013 /* LabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18DD2BD0217800A7E013 /* LabelVC.m */; };
+		9F6B18E12BD021A000A7E013 /* ToobarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18E02BD021A000A7E013 /* ToobarVC.m */; };
+		9F6B18E42BD021C700A7E013 /* StatusBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18E32BD021C700A7E013 /* StatusBarVC.m */; };
+		9F6B18E72BD021E400A7E013 /* NavigationBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18E62BD021E400A7E013 /* NavigationBarVC.m */; };
+		9F6B18EA2BD021FF00A7E013 /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18E92BD021FF00A7E013 /* TabBarVC.m */; };
+		9F6B18ED2BD0221900A7E013 /* ImageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18EC2BD0221900A7E013 /* ImageViewVC.m */; };
+		9F6B18F02BD0224300A7E013 /* ScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18EF2BD0224300A7E013 /* ScrollViewVC.m */; };
+		9F6B18F32BD0226100A7E013 /* TextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18F22BD0226100A7E013 /* TextViewVC.m */; };
+		9F6B18F62BD0228D00A7E013 /* TableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18F52BD0228D00A7E013 /* TableViewVC.m */; };
+		9F6B18F92BD022CA00A7E013 /* ViewTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18F82BD022CA00A7E013 /* ViewTransitionVC.m */; };
+		9F6B18FC2BD022FA00A7E013 /* PickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18FB2BD022FA00A7E013 /* PickerVC.m */; };
+		9F6B18FF2BD0232900A7E013 /* SwitchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B18FE2BD0232900A7E013 /* SwitchVC.m */; };
+		9F6B19022BD0235900A7E013 /* SliderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B19012BD0235900A7E013 /* SliderVC.m */; };
+		9F6B19052BD0237300A7E013 /* AlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B19042BD0237300A7E013 /* AlertVC.m */; };
+		9F6B19082BD0239A00A7E013 /* IconVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B19072BD0239A00A7E013 /* IconVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +55,8 @@
 		9F6B189E2BCF44D000A7E013 /* iOS_oc_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_oc_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B18A12BCF44D000A7E013 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F6B18A22BCF44D000A7E013 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F6B18A42BCF44D000A7E013 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9F6B18A52BCF44D000A7E013 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9F6B18A72BCF44D000A7E013 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9F6B18A82BCF44D000A7E013 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9F6B18AB2BCF44D000A7E013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F6B18AD2BCF44E600A7E013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6B18B02BCF44E600A7E013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6B18B22BCF44E600A7E013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +66,40 @@
 		9F6B18C32BCF44E700A7E013 /* iOS_oc_UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_oc_UIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6B18C72BCF44E700A7E013 /* iOS_oc_UIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_oc_UIUITests.m; sourceTree = "<group>"; };
 		9F6B18C92BCF44E700A7E013 /* iOS_oc_UIUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_oc_UIUITestsLaunchTests.m; sourceTree = "<group>"; };
+		9F6B18D62BD019CF00A7E013 /* TextFieldVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldVC.h; sourceTree = "<group>"; };
+		9F6B18D72BD019CF00A7E013 /* TextFieldVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldVC.m; sourceTree = "<group>"; };
+		9F6B18D92BD0213D00A7E013 /* ButtonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonVC.h; sourceTree = "<group>"; };
+		9F6B18DA2BD0213D00A7E013 /* ButtonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonVC.m; sourceTree = "<group>"; };
+		9F6B18DC2BD0217800A7E013 /* LabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelVC.h; sourceTree = "<group>"; };
+		9F6B18DD2BD0217800A7E013 /* LabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelVC.m; sourceTree = "<group>"; };
+		9F6B18DF2BD021A000A7E013 /* ToobarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToobarVC.h; sourceTree = "<group>"; };
+		9F6B18E02BD021A000A7E013 /* ToobarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToobarVC.m; sourceTree = "<group>"; };
+		9F6B18E22BD021C700A7E013 /* StatusBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarVC.h; sourceTree = "<group>"; };
+		9F6B18E32BD021C700A7E013 /* StatusBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarVC.m; sourceTree = "<group>"; };
+		9F6B18E52BD021E400A7E013 /* NavigationBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationBarVC.h; sourceTree = "<group>"; };
+		9F6B18E62BD021E400A7E013 /* NavigationBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarVC.m; sourceTree = "<group>"; };
+		9F6B18E82BD021FF00A7E013 /* TabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		9F6B18E92BD021FF00A7E013 /* TabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		9F6B18EB2BD0221900A7E013 /* ImageViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewVC.h; sourceTree = "<group>"; };
+		9F6B18EC2BD0221900A7E013 /* ImageViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewVC.m; sourceTree = "<group>"; };
+		9F6B18EE2BD0224300A7E013 /* ScrollViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewVC.h; sourceTree = "<group>"; };
+		9F6B18EF2BD0224300A7E013 /* ScrollViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewVC.m; sourceTree = "<group>"; };
+		9F6B18F12BD0226100A7E013 /* TextViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewVC.h; sourceTree = "<group>"; };
+		9F6B18F22BD0226100A7E013 /* TextViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewVC.m; sourceTree = "<group>"; };
+		9F6B18F42BD0228D00A7E013 /* TableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewVC.h; sourceTree = "<group>"; };
+		9F6B18F52BD0228D00A7E013 /* TableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewVC.m; sourceTree = "<group>"; };
+		9F6B18F72BD022CA00A7E013 /* ViewTransitionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewTransitionVC.h; sourceTree = "<group>"; };
+		9F6B18F82BD022CA00A7E013 /* ViewTransitionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTransitionVC.m; sourceTree = "<group>"; };
+		9F6B18FA2BD022FA00A7E013 /* PickerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerVC.h; sourceTree = "<group>"; };
+		9F6B18FB2BD022FA00A7E013 /* PickerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerVC.m; sourceTree = "<group>"; };
+		9F6B18FD2BD0232900A7E013 /* SwitchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchVC.h; sourceTree = "<group>"; };
+		9F6B18FE2BD0232900A7E013 /* SwitchVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchVC.m; sourceTree = "<group>"; };
+		9F6B19002BD0235900A7E013 /* SliderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderVC.h; sourceTree = "<group>"; };
+		9F6B19012BD0235900A7E013 /* SliderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderVC.m; sourceTree = "<group>"; };
+		9F6B19032BD0237300A7E013 /* AlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertVC.h; sourceTree = "<group>"; };
+		9F6B19042BD0237300A7E013 /* AlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertVC.m; sourceTree = "<group>"; };
+		9F6B19062BD0239A00A7E013 /* IconVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconVC.h; sourceTree = "<group>"; };
+		9F6B19072BD0239A00A7E013 /* IconVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,15 +152,46 @@
 			children = (
 				9F6B18A12BCF44D000A7E013 /* AppDelegate.h */,
 				9F6B18A22BCF44D000A7E013 /* AppDelegate.m */,
-				9F6B18A42BCF44D000A7E013 /* SceneDelegate.h */,
-				9F6B18A52BCF44D000A7E013 /* SceneDelegate.m */,
 				9F6B18A72BCF44D000A7E013 /* ViewController.h */,
 				9F6B18A82BCF44D000A7E013 /* ViewController.m */,
-				9F6B18AA2BCF44D000A7E013 /* Main.storyboard */,
 				9F6B18AD2BCF44E600A7E013 /* Assets.xcassets */,
 				9F6B18AF2BCF44E600A7E013 /* LaunchScreen.storyboard */,
 				9F6B18B22BCF44E600A7E013 /* Info.plist */,
 				9F6B18B32BCF44E600A7E013 /* main.m */,
+				9F6B18D62BD019CF00A7E013 /* TextFieldVC.h */,
+				9F6B18D72BD019CF00A7E013 /* TextFieldVC.m */,
+				9F6B18D92BD0213D00A7E013 /* ButtonVC.h */,
+				9F6B18DA2BD0213D00A7E013 /* ButtonVC.m */,
+				9F6B18DC2BD0217800A7E013 /* LabelVC.h */,
+				9F6B18DD2BD0217800A7E013 /* LabelVC.m */,
+				9F6B18DF2BD021A000A7E013 /* ToobarVC.h */,
+				9F6B18E02BD021A000A7E013 /* ToobarVC.m */,
+				9F6B18E22BD021C700A7E013 /* StatusBarVC.h */,
+				9F6B18E32BD021C700A7E013 /* StatusBarVC.m */,
+				9F6B18E52BD021E400A7E013 /* NavigationBarVC.h */,
+				9F6B18E62BD021E400A7E013 /* NavigationBarVC.m */,
+				9F6B18E82BD021FF00A7E013 /* TabBarVC.h */,
+				9F6B18E92BD021FF00A7E013 /* TabBarVC.m */,
+				9F6B18EB2BD0221900A7E013 /* ImageViewVC.h */,
+				9F6B18EC2BD0221900A7E013 /* ImageViewVC.m */,
+				9F6B18EE2BD0224300A7E013 /* ScrollViewVC.h */,
+				9F6B18EF2BD0224300A7E013 /* ScrollViewVC.m */,
+				9F6B18F42BD0228D00A7E013 /* TableViewVC.h */,
+				9F6B18F52BD0228D00A7E013 /* TableViewVC.m */,
+				9F6B18F12BD0226100A7E013 /* TextViewVC.h */,
+				9F6B18F22BD0226100A7E013 /* TextViewVC.m */,
+				9F6B18F72BD022CA00A7E013 /* ViewTransitionVC.h */,
+				9F6B18F82BD022CA00A7E013 /* ViewTransitionVC.m */,
+				9F6B18FA2BD022FA00A7E013 /* PickerVC.h */,
+				9F6B18FB2BD022FA00A7E013 /* PickerVC.m */,
+				9F6B18FD2BD0232900A7E013 /* SwitchVC.h */,
+				9F6B18FE2BD0232900A7E013 /* SwitchVC.m */,
+				9F6B19002BD0235900A7E013 /* SliderVC.h */,
+				9F6B19012BD0235900A7E013 /* SliderVC.m */,
+				9F6B19032BD0237300A7E013 /* AlertVC.h */,
+				9F6B19042BD0237300A7E013 /* AlertVC.m */,
+				9F6B19062BD0239A00A7E013 /* IconVC.h */,
+				9F6B19072BD0239A00A7E013 /* IconVC.m */,
 			);
 			path = iOS_oc_UI;
 			sourceTree = "<group>";
@@ -241,7 +318,6 @@
 			files = (
 				9F6B18B12BCF44E600A7E013 /* LaunchScreen.storyboard in Resources */,
 				9F6B18AE2BCF44E600A7E013 /* Assets.xcassets in Resources */,
-				9F6B18AC2BCF44D000A7E013 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +342,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6B18DB2BD0213D00A7E013 /* ButtonVC.m in Sources */,
+				9F6B19022BD0235900A7E013 /* SliderVC.m in Sources */,
 				9F6B18A92BCF44D000A7E013 /* ViewController.m in Sources */,
+				9F6B19052BD0237300A7E013 /* AlertVC.m in Sources */,
+				9F6B18E42BD021C700A7E013 /* StatusBarVC.m in Sources */,
+				9F6B18ED2BD0221900A7E013 /* ImageViewVC.m in Sources */,
+				9F6B18F02BD0224300A7E013 /* ScrollViewVC.m in Sources */,
 				9F6B18A32BCF44D000A7E013 /* AppDelegate.m in Sources */,
+				9F6B18F32BD0226100A7E013 /* TextViewVC.m in Sources */,
+				9F6B18E12BD021A000A7E013 /* ToobarVC.m in Sources */,
+				9F6B18FF2BD0232900A7E013 /* SwitchVC.m in Sources */,
+				9F6B18F62BD0228D00A7E013 /* TableViewVC.m in Sources */,
+				9F6B18DE2BD0217800A7E013 /* LabelVC.m in Sources */,
+				9F6B19082BD0239A00A7E013 /* IconVC.m in Sources */,
+				9F6B18E72BD021E400A7E013 /* NavigationBarVC.m in Sources */,
+				9F6B18D82BD019CF00A7E013 /* TextFieldVC.m in Sources */,
+				9F6B18FC2BD022FA00A7E013 /* PickerVC.m in Sources */,
+				9F6B18EA2BD021FF00A7E013 /* TabBarVC.m in Sources */,
+				9F6B18F92BD022CA00A7E013 /* ViewTransitionVC.m in Sources */,
 				9F6B18B42BCF44E600A7E013 /* main.m in Sources */,
-				9F6B18A62BCF44D000A7E013 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +398,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F6B18AA2BCF44D000A7E013 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F6B18AB2BCF44D000A7E013 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F6B18AF2BCF44E600A7E013 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -449,7 +533,6 @@
 				INFOPLIST_FILE = iOS_oc_UI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +559,6 @@
 				INFOPLIST_FILE = iOS_oc_UI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
